@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureViewer", "PictureViewer\PictureViewer.csproj", "{B9DA5A9E-53F5-4990-9829-FC66F6D6DD7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathQuiz", "Math Quiz\MathQuiz.csproj", "{F95ECBDF-6E38-4C2A-BC96-A3265AD4625E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingGame", "Matching Game\MatchingGame.csproj", "{BD92B4AB-73D6-416D-91C5-37B838EAF2A6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9DA5A9E-53F5-4990-9829-FC66F6D6DD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DA5A9E-53F5-4990-9829-FC66F6D6DD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DA5A9E-53F5-4990-9829-FC66F6D6DD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DA5A9E-53F5-4990-9829-FC66F6D6DD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95ECBDF-6E38-4C2A-BC96-A3265AD4625E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95ECBDF-6E38-4C2A-BC96-A3265AD4625E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95ECBDF-6E38-4C2A-BC96-A3265AD4625E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95ECBDF-6E38-4C2A-BC96-A3265AD4625E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD92B4AB-73D6-416D-91C5-37B838EAF2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD92B4AB-73D6-416D-91C5-37B838EAF2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD92B4AB-73D6-416D-91C5-37B838EAF2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD92B4AB-73D6-416D-91C5-37B838EAF2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
